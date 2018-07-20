@@ -46,24 +46,6 @@ public class CallsRegistrationController extends DispatcherOfficeController {
     private Button registrateButton;
 
     @FXML
-    private Label diaFullNameLabel;
-
-    @FXML
-    private Label diaStartAdressLabel;
-
-    @FXML
-    private Label diaEndAdressLabel;
-
-    @FXML
-    private Label diaPhoneLabel;
-
-    @FXML
-    private Button diaRegistrateButton;
-
-    @FXML
-    private Button diaResrtButton;
-
-    @FXML
     void initialize(){
         backButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
@@ -74,6 +56,9 @@ public class CallsRegistrationController extends DispatcherOfficeController {
         registrateButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                Dispatcher dispatcher = new Dispatcher(
+                        fullNameField.getText(), startAdressField.getText(), endAdressField.getText(), phoneField.getText());
+
                 boolean flag = true;
 
                 for(int i = 0; i < 4; i++){
@@ -88,10 +73,6 @@ public class CallsRegistrationController extends DispatcherOfficeController {
                     }catch (IOException e){
                         e.printStackTrace();
                     }
-                    diaFullNameLabel.setText(fullNameField.getText());
-                    diaStartAdressLabel.setText(startAdressField.getText());
-                    diaEndAdressLabel.setText(endAdressField.getText());
-                    diaPhoneLabel.setText(phoneField.getText());
                 }
             }
         });
