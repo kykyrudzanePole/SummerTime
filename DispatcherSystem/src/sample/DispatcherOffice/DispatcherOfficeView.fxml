@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<SplitPane dividerPositions="0.2171945701357466" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DispatcherOffice.DispatcherOfficeController">
+<SplitPane dividerPositions="0.2171945701357466" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DispatcherOffice.DispatcherOfficeController">
   <items>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
@@ -35,18 +35,18 @@
          </children></AnchorPane>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="687.0" prefWidth="515.0">
          <children>
-            <Label alignment="CENTER" layoutX="93.0" layoutY="20.0" prefHeight="64.0" prefWidth="329.0" text="Calls">
+            <Label alignment="CENTER" layoutX="138.0" layoutY="20.0" prefHeight="64.0" prefWidth="329.0" text="Calls List">
                <font>
                   <Font name="Apple Casual" size="36.0" />
                </font>
             </Label>
-            <TableView layoutX="4.0" layoutY="84.0" prefHeight="629.0" prefWidth="508.0">
+            <TableView layoutX="19.0" layoutY="84.0" prefHeight="629.0" prefWidth="567.0" style="-fx-border-color: black;">
               <columns>
                 <TableColumn prefWidth="46.0" text="ID" />
                 <TableColumn prefWidth="102.0" text="Full Name" />
                   <TableColumn prefWidth="93.0" text="Phone" />
                   <TableColumn prefWidth="82.0" text="Status" />
-                  <TableColumn prefWidth="191.0" text="Full Adress" />
+                  <TableColumn prefWidth="281.0" text="Full Adress" />
               </columns>
             </TableView>
          </children></AnchorPane>

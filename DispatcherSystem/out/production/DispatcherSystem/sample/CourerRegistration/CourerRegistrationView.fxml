@@ -10,56 +10,86 @@
    <children>
       <Label alignment="CENTER" layoutX="190.0" layoutY="36.0" prefHeight="55.0" prefWidth="373.0" text="Courer Registration" textFill="#0a0808">
          <font>
-            <Font name="Helvetica Neue Medium" size="36.0" />
+            <Font name="Apple Casual" size="36.0" />
          </font>
       </Label>
       <AnchorPane layoutX="43.0" layoutY="120.0" prefHeight="313.0" prefWidth="613.0">
          <children>
             <Label prefHeight="39.0" prefWidth="167.0" text="Full Name:">
                <font>
-                  <Font name="Helvetica Neue" size="25.0" />
+                  <Font name="Apple Casual" size="25.0" />
                </font>
             </Label>
             <Label layoutY="58.0" prefHeight="39.0" prefWidth="167.0" text="Pasport Code:">
                <font>
-                  <Font name="Helvetica Neue" size="25.0" />
+                  <Font name="Apple Casual" size="25.0" />
                </font>
             </Label>
             <Label layoutY="179.0" prefHeight="39.0" prefWidth="167.0" text="Phone:">
                <font>
-                  <Font name="Helvetica Neue" size="25.0" />
+                  <Font name="Apple Casual" size="25.0" />
                </font>
             </Label>
             <Label layoutY="116.0" prefHeight="39.0" prefWidth="167.0" text="Adress:">
                <font>
-                  <Font name="Helvetica Neue" size="25.0" />
+                  <Font name="Apple Casual" size="25.0" />
                </font>
             </Label>
-            <TextField fx:id="pasportCodeField" layoutX="189.0" layoutY="64.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Pasport Code" />
-            <TextField fx:id="fullNameField" layoutX="189.0" layoutY="6.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Full Name" />
-            <TextField fx:id="adressField" layoutX="189.0" layoutY="122.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Adress" />
-            <TextField fx:id="phoneField" layoutX="189.0" layoutY="185.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Phone" />
-            <Label fx:id="errorFullNameLabel" layoutX="494.0" layoutY="6.0" prefHeight="27.0" prefWidth="119.0" textFill="RED" />
-            <Label fx:id="errorPasportCodeLabel" layoutX="494.0" layoutY="64.0" prefHeight="27.0" prefWidth="119.0" textFill="RED" />
-            <Label fx:id="errorAdressLabel" layoutX="494.0" layoutY="122.0" prefHeight="27.0" prefWidth="119.0" textFill="RED" />
-            <Label fx:id="errorPhoneLabel" layoutX="494.0" layoutY="185.0" prefHeight="27.0" prefWidth="119.0" textFill="RED" />
+            <TextField fx:id="pasportCodeField" layoutX="189.0" layoutY="64.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Pasport Code">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="fullNameField" layoutX="189.0" layoutY="6.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Full Name">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="adressField" layoutX="189.0" layoutY="122.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Adress">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="phoneField" layoutX="189.0" layoutY="185.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Phone">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></TextField>
+            <Label fx:id="errorFullNameLabel" layoutX="494.0" layoutY="6.0" prefHeight="27.0" prefWidth="119.0" textFill="RED">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></Label>
+            <Label fx:id="errorPasportCodeLabel" layoutX="494.0" layoutY="64.0" prefHeight="27.0" prefWidth="119.0" textFill="RED">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></Label>
+            <Label fx:id="errorAdressLabel" layoutX="494.0" layoutY="122.0" prefHeight="27.0" prefWidth="119.0" textFill="RED">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></Label>
+            <Label fx:id="errorPhoneLabel" layoutX="494.0" layoutY="185.0" prefHeight="27.0" prefWidth="119.0" textFill="RED">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></Label>
             <Label layoutY="239.0" prefHeight="39.0" prefWidth="167.0" text="Gmail:">
                <font>
-                  <Font name="Helvetica Neue" size="25.0" />
+                  <Font name="Apple Casual" size="25.0" />
                </font>
             </Label>
-            <TextField fx:id="gmailField1" layoutX="189.0" layoutY="245.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Gmail" />
-            <Label fx:id="errorGmailLabel" layoutX="494.0" layoutY="245.0" prefHeight="27.0" prefWidth="119.0" textFill="RED" />
+            <TextField fx:id="gmailField1" layoutX="189.0" layoutY="245.0" prefHeight="27.0" prefWidth="289.0" promptText="Write Gmail">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></TextField>
+            <Label fx:id="errorGmailLabel" layoutX="494.0" layoutY="245.0" prefHeight="27.0" prefWidth="119.0" textFill="RED">
+               <font>
+                  <Font name="Apple Casual" size="13.0" />
+               </font></Label>
          </children>
       </AnchorPane>
       <Button fx:id="backButton" layoutX="420.0" layoutY="453.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="131.0" text="Back">
          <font>
-            <Font name="Hiragino Sans W7" size="17.0" />
+            <Font name="Apple Casual" size="17.0" />
          </font>
       </Button>
       <Button fx:id="registrateButton" layoutX="211.0" layoutY="453.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="131.0" text="Registrate">
          <font>
-            <Font name="Hiragino Sans W7" size="17.0" />
+            <Font name="Apple Casual" size="17.0" />
          </font>
       </Button>
    </children>

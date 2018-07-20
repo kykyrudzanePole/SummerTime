@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<SplitPane dividerPositions="0.2171945701357466" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CourerList.CourerListController">
+<SplitPane dividerPositions="0.2171945701357466" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="665.0" prefWidth="802.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CourerList.CourerListController">
    <items>
       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
@@ -21,17 +21,17 @@
       </AnchorPane>
       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
          <children>
-            <Label alignment="CENTER" layoutX="93.0" layoutY="14.0" prefHeight="64.0" prefWidth="329.0" text="Courer List">
+            <Label alignment="CENTER" layoutX="147.0" layoutY="14.0" prefHeight="64.0" prefWidth="329.0" text="Courer List">
                <font>
                   <Font name="Apple Casual" size="36.0" />
                </font>
             </Label>
-            <TableView layoutX="4.0" layoutY="84.0" prefHeight="629.0" prefWidth="508.0">
+            <TableView layoutX="26.0" layoutY="84.0" prefHeight="629.0" prefWidth="572.0" style="-fx-border-color: black;">
                <columns>
                   <TableColumn prefWidth="67.0" text="ID" />
-                  <TableColumn prefWidth="148.0" text="Full Name" />
-                  <TableColumn prefWidth="168.0" text="Phone" />
-                  <TableColumn prefWidth="124.0" text="Status" />
+                  <TableColumn prefWidth="176.0" text="Full Name" />
+                  <TableColumn prefWidth="165.0" text="Phone" />
+                  <TableColumn prefWidth="163.0" text="Status" />
                </columns>
             </TableView>
          </children>

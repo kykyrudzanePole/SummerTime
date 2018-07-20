@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 import static sample.DispatcherLogin.Const.*;
 
-public class DataBaseHelper extends DataBaseConnecting {
+public class DataBaseRequest extends DataBaseConnecting {
 
     String login;
     String password;
@@ -34,7 +34,7 @@ public class DataBaseHelper extends DataBaseConnecting {
         }
         return flag;
     }
-    DataBaseHelper(String login, String password){
+    DataBaseRequest(String login, String password){
         this.login = login;
         this.password = password;
     }
