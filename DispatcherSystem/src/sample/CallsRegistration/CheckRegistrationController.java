@@ -9,6 +9,7 @@ import sample.DispatcherOffice.DispatcherOfficeController;
 
 public class CheckRegistrationController extends DispatcherOfficeController {
 
+
     @FXML
     private Label diaFullNameLabel;
 
@@ -44,17 +45,14 @@ public class CheckRegistrationController extends DispatcherOfficeController {
         diaRegistrateButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                int ID = 100;
-
                 DataBaseWriter dataBaseWriter = new DataBaseWriter(
-                        ID, diaFullNameLabel.getText(), diaStartAdressLabel.getText(), diaEndAdressLabel.getText(), diaPhoneLabel.getText());
+                        diaFullNameLabel.getText(), diaStartAdressLabel.getText(), diaEndAdressLabel.getText(), diaPhoneLabel.getText());
                 dataBaseWriter.setDB();
-                ID++;
-
                 clickButton(diaRegistrateButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
             }
         });
     }
 }
+
 
 

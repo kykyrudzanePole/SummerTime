@@ -12,6 +12,8 @@ import javafx.stage.Window;
 import sample.DispatcherOffice.DispatcherOfficeController;
 
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CallsRegistrationController extends DispatcherOfficeController {
 
@@ -47,37 +49,30 @@ public class CallsRegistrationController extends DispatcherOfficeController {
 
     @FXML
     void initialize(){
-        backButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                clickButton(backButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
-            }
-        });
-        registrateButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                Dispatcher dispatcher = new Dispatcher(
-                        fullNameField.getText(), startAdressField.getText(), endAdressField.getText(), phoneField.getText());
-
-                boolean flag = true;
-
-                for(int i = 0; i < 4; i++){
-                    flag = errorCheck(i);
+            backButton.setOnAction(new EventHandler<ActionEvent>() {
+                @Override
+                public void handle(ActionEvent event) {
+                    clickButton(backButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
                 }
-                if(flag){
-                    try {
-                        Parent root = FXMLLoader.load(getClass().getResource("/sample/CallsRegistration/CheckRegistration.fxml"));
-                        Stage stage = new Stage();
-                        stage.setScene(new Scene(root));
-                        stage.show();
-                    }catch (IOException e){
-                        e.printStackTrace();
+            });
+            registrateButton.setOnAction(new EventHandler<ActionEvent>() {
+                @Override
+                public void handle(ActionEvent event) {
+
+                    Dispatcher dispatcher = new Dispatcher(
+                            fullNameField.getText(), startAdressField.getText(), endAdressField.getText(), phoneField.getText());
+
+                    boolean flag = true;
+
+                    for (int i = 0; i < 4; i++) {
+                        flag = errorCheck(i);
+                    }
+                    if (flag) {
+                            clickButton(registrateButton, "/sample/CallsRegistration/CheckRegistration.fxml");
                     }
                 }
-            }
-        });
+            });
     }
-
     private boolean errorCheck(int index){
         TextField [] fields = {startAdressField, fullNameField, endAdressField, phoneField};
         Label [] errorLabels = {errorStartAdressLabel, errorFullNameLabel, errorEndAdressLabel, errorPhoneLabel};
@@ -97,9 +92,22 @@ public class CallsRegistrationController extends DispatcherOfficeController {
             } else {
                 errorLabels[index].setText("");
             }
+
+            Pattern pattern = Pattern.compile("\\D");
+            Matcher matcher = pattern.matcher(fields[index].getText());
+
+
+            for (int i = 0; i < fields[index].getText().length(); i++) {
+                if (matcher.find()) {
+                    flag = false;
+                    errorLabels[index].setText("only numbers");
+                    break;
+                } else {
+                    errorLabels[index].setText("");
+                }
+            }
         }
         return  flag;
     }
-
 
 }
