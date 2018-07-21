@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /*
-    Creating database connecting
+   Simple database connecting
  */
 
 public class DataBaseConnecting {

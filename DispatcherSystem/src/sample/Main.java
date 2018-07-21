@@ -8,6 +8,8 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    // program start from  DispatcherLoginView.fxml
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("DispatcherLogin/DispatcherLoginView.fxml"));

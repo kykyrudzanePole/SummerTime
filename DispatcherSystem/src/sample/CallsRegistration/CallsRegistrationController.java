@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class CallsRegistrationController extends DispatcherOfficeController {
+public class CallsRegistrationController extends DispatcherOfficeController {       // extends to use method clickButton()
 
     @FXML
     private TextField startAdressField;
@@ -51,42 +51,39 @@ public class CallsRegistrationController extends DispatcherOfficeController {
     void initialize(){
             backButton.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
-                public void handle(ActionEvent event) {
+                public void handle(ActionEvent event) {         // back to Office window
                     clickButton(backButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
                 }
             });
             registrateButton.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
                 public void handle(ActionEvent event) {
+                    boolean flag = true;        // bool variable for Check on errors in textfields
 
-                    Dispatcher dispatcher = new Dispatcher(
-                            fullNameField.getText(), startAdressField.getText(), endAdressField.getText(), phoneField.getText());
-
-                    boolean flag = true;
-
-                    for (int i = 0; i < 4; i++) {
-                        flag = errorCheck(i);
+                    for (int i = 0; i < 4; i++) {       // create circle for easter checking
+                        flag = errorCheck(i);       // call method to handled errors and return true or false
                     }
-                    if (flag) {
+                    if (flag) {     // if after method errorCheck flag true open CheckRegistration.fxml using method clickButton
                             clickButton(registrateButton, "/sample/CallsRegistration/CheckRegistration.fxml");
                     }
                 }
             });
     }
     private boolean errorCheck(int index){
+        // create 2 arrays with textfields and errorLabels from window form
         TextField [] fields = {startAdressField, fullNameField, endAdressField, phoneField};
         Label [] errorLabels = {errorStartAdressLabel, errorFullNameLabel, errorEndAdressLabel, errorPhoneLabel};
 
-        boolean flag = true;
+        boolean flag = true;    // flag for checking
 
-        if(fields[index].getText().length() == 0){
+        if(fields[index].getText().length() == 0){      // check on empty rows all textfields
             flag = false;
             errorLabels[index].setText("plz write");
         }else{
             errorLabels[index].setText("");
         }
         if(index == 3) {
-            if (fields[index].getText().length() != 10) {
+            if (fields[index].getText().length() != 10) {       // check phone field on 10 numbers
                 flag = false;
                 errorLabels[index].setText("wrong number");
             } else {
@@ -97,7 +94,7 @@ public class CallsRegistrationController extends DispatcherOfficeController {
             Matcher matcher = pattern.matcher(fields[index].getText());
 
 
-            for (int i = 0; i < fields[index].getText().length(); i++) {
+            for (int i = 0; i < fields[index].getText().length(); i++) {    // using regex check on only-number in phone field
                 if (matcher.find()) {
                     flag = false;
                     errorLabels[index].setText("only numbers");
@@ -107,7 +104,7 @@ public class CallsRegistrationController extends DispatcherOfficeController {
                 }
             }
         }
-        return  flag;
+        return  flag;   // return true or false
     }
 
 }

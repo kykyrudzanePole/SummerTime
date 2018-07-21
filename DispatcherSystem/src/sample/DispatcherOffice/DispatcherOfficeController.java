@@ -29,33 +29,37 @@ public class DispatcherOfficeController {
     void initialize(){
         changeDispatcherButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
-            public void handle(ActionEvent event) {
+            public void handle(ActionEvent event) {         // back to Login and Password
                 clickButton(changeDispatcherButton, "/sample/DispatcherLogin/DispatcherLoginView.fxml");
             }
         });
         callsRegistrationButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
-            public void handle(ActionEvent event) {
+            public void handle(ActionEvent event) {         // open Registration calls form-window
                 clickButton(callsRegistrationButton, "/sample/CallsRegistration/CallsRegistrationView.fxml");
             }
         });
         courerListButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
-            public void handle(ActionEvent event) {
+            public void handle(ActionEvent event) {         // open Information about all courers
                 clickButton(courerListButton, "/sample/CourerList/CourerListView.fxml");
             }
         });
         courersRegistrationButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
-            public void handle(ActionEvent event) {
+            public void handle(ActionEvent event) {         // open Registration courer form-window
                 clickButton(courersRegistrationButton, "/sample/CourerRegistration/CourerRegistrationView.fxml");
             }
         });
     }
+
+    /* method which take button and fmxl file and due to this,
+       hide current window and open mentioned fxml file
+     */
     protected void clickButton(Button button, String way){
-        button.getScene().getWindow().hide();
+        button.getScene().getWindow().hide();       // hide window
         try {
-            Parent root = FXMLLoader.load(getClass().getResource(way));
+            Parent root = FXMLLoader.load(getClass().getResource(way));     // open new window
             Stage stage = new Stage();
             stage.setTitle("DISPATCHER COURIER SYSTEM <3");
             stage.setScene(new Scene(root));

@@ -19,7 +19,7 @@ public class CourerListController extends DispatcherOfficeController {
 
     @FXML
     void initialize(){
-        backButton.setOnAction(new EventHandler<ActionEvent>() {
+        backButton.setOnAction(new EventHandler<ActionEvent>() { // back to office
             @Override
             public void handle(ActionEvent event) {
                 clickButton(backButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");

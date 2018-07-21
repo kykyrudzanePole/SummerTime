@@ -24,10 +24,10 @@ public class DataBaseWriter extends DataBaseConnecting {
     public void setDB(){
         try {
             Statement statement = dbConnecting().createStatement();
-            statement.executeUpdate( ("insert into " + TABLE + "(" +
+            statement.executeUpdate("insert into " + TABLE + "(" +
                     ID + ", " + FULL_NAME + ", " + STARTA_DRESS + ", " + END_ADRESS + ", " + PHONE + ") " +
                     " values('" + IDnumber + "', '" + fullName + "', '" + startAdress + "'," +
-                    " '" + endAdress + "' , '" + phone +"')"));
+                    " '" + endAdress + "' , '" + phone +"')");
 
             ++IDnumber;
 

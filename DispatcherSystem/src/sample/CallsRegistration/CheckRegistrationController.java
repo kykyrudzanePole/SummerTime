@@ -9,7 +9,6 @@ import sample.DispatcherOffice.DispatcherOfficeController;
 
 public class CheckRegistrationController extends DispatcherOfficeController {
 
-
     @FXML
     private Label diaFullNameLabel;
 
@@ -30,13 +29,13 @@ public class CheckRegistrationController extends DispatcherOfficeController {
 
     @FXML
     void initialize(){
-
+        // using records from Dispatcher class
         diaFullNameLabel.setText(Dispatcher.fullName);
         diaStartAdressLabel.setText(Dispatcher.startAdress);
         diaEndAdressLabel.setText(Dispatcher.endAdress);
         diaPhoneLabel.setText(Dispatcher.phone);
 
-        diaResrtButton.setOnAction(new EventHandler<ActionEvent>() {
+        diaResrtButton.setOnAction(new EventHandler<ActionEvent>() {       // wrong records, back to Registration.fxml
             @Override
             public void handle(ActionEvent event) {
                 diaResrtButton.getScene().getWindow().hide();
@@ -45,10 +44,11 @@ public class CheckRegistrationController extends DispatcherOfficeController {
         diaRegistrateButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                // create object send records to the DataBaseWriter class which write them to database
                 DataBaseWriter dataBaseWriter = new DataBaseWriter(
                         diaFullNameLabel.getText(), diaStartAdressLabel.getText(), diaEndAdressLabel.getText(), diaPhoneLabel.getText());
-                dataBaseWriter.setDB();
-                clickButton(diaRegistrateButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
+                dataBaseWriter.setDB();     // call method which write records to database
+                clickButton(diaRegistrateButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");     // back to Office window
             }
         });
     }

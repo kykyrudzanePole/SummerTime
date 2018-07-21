@@ -9,7 +9,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import sample.DispatcherOffice.DispatcherOfficeController;
 
-public class DispatcherLoginController extends DispatcherOfficeController {
+public class DispatcherLoginController extends DispatcherOfficeController {     // extends to use method clickButton()
 
     @FXML
     private TextField loginField;
@@ -28,10 +28,10 @@ public class DispatcherLoginController extends DispatcherOfficeController {
         loginButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if(checkDate()){
-                   clickButton(loginButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");
+                if(checkDate()){            // using method checkData where we check login and password
+                   clickButton(loginButton, "/sample/DispatcherOffice/DispatcherOfficeView.fxml");      // open office window
                 }else{
-                    errorLabel.setText("Wrong password or login :( ");
+                    errorLabel.setText("Wrong password or login :( ");      // error
                 }
             }
         });
@@ -39,6 +39,7 @@ public class DispatcherLoginController extends DispatcherOfficeController {
 
     private boolean checkDate(){
 
+        // take varibles from textfields and set them in constructor
         String login = loginField.getText().trim();
         String password = passwordField.getText().trim();
 
