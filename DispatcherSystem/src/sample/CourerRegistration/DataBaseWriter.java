@@ -14,8 +14,10 @@ public class DataBaseWriter extends DataBaseConnecting {
     public static final String PHONE = "phone";
     public static final String ID = "ID";
     public static final String GMAIL = "gmail";
+    public static final String STATUS = "statusColum";
 
     static int IDnumber = 101;
+    String status = "free";
     String fullName;
     String Adress;
     String phone;
@@ -26,9 +28,9 @@ public class DataBaseWriter extends DataBaseConnecting {
         try {
             Statement statement = dbConnecting().createStatement();
             statement.executeUpdate(   "insert into " + TABLE + "(" +
-                    ID + ", " + FULL_NAME + ", " + ADRESS + ", " + PASPORT_NUMBER + ", " + PHONE + ", " + GMAIL + ") " +
+                    ID + ", " + FULL_NAME + ", " + ADRESS + ", " + PASPORT_NUMBER + ", " + PHONE + ", " + GMAIL + ", " + STATUS + ") " +
                     " values('" + IDnumber + "', '" + fullName + "', '" + Adress + "'," +
-                    " '" + pasportNumber + "' , '" + phone +"' , '" + gmail + "')");
+                    " '" + pasportNumber + "' , '" + phone +"' , '" + gmail + "' , '" + status + "')");
 
             ++IDnumber;
 

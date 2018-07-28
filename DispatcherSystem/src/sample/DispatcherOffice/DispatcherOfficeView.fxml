@@ -40,13 +40,13 @@
                   <Font name="Apple Casual" size="36.0" />
                </font>
             </Label>
-            <TableView layoutX="19.0" layoutY="84.0" prefHeight="629.0" prefWidth="567.0" style="-fx-border-color: black;">
+            <TableView fx:id="officeTable" layoutX="19.0" layoutY="84.0" prefHeight="629.0" prefWidth="567.0" style="-fx-border-color: black;">
               <columns>
-                <TableColumn prefWidth="46.0" text="ID" />
-                <TableColumn prefWidth="102.0" text="Full Name" />
-                  <TableColumn prefWidth="93.0" text="Phone" />
-                  <TableColumn prefWidth="82.0" text="Status" />
-                  <TableColumn prefWidth="281.0" text="Full Adress" />
+                <TableColumn fx:id="IDColum" prefWidth="46.0" text="ID" />
+                <TableColumn fx:id="fullNameColum" prefWidth="102.0" text="Full Name" />
+                  <TableColumn fx:id="phoneColum" prefWidth="93.0" text="Phone" />
+                  <TableColumn fx:id="statusColum" prefWidth="82.0" text="Status" />
+                  <TableColumn fx:id="fullAdressColum" prefWidth="281.0" text="Full Adress" />
               </columns>
             </TableView>
          </children></AnchorPane>

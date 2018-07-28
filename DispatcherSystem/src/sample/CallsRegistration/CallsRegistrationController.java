@@ -64,7 +64,14 @@ public class CallsRegistrationController extends DispatcherOfficeController {   
                         flag = errorCheck(i);       // call method to handled errors and return true or false
                     }
                     if (flag) {     // if after method errorCheck flag true open CheckRegistration.fxml using method clickButton
-                            clickButton(registrateButton, "/sample/CallsRegistration/CheckRegistration.fxml");
+
+                        // set values to Dispatcher class
+                        Dispatcher.fullName = fullNameField.getText();
+                        Dispatcher.startAdress = startAdressField.getText();
+                        Dispatcher.endAdress = endAdressField.getText();
+                        Dispatcher.phone = phoneField.getText();
+
+                        clickButton(registrateButton, "/sample/CallsRegistration/CheckRegistration.fxml");
                     }
                 }
             });

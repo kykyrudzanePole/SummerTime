@@ -136,6 +136,6 @@ public class CourerRegistrationController extends DispatcherOfficeController {  
                 errorLabels[index].setText("");
             }
         }
-        return flag;        
+        return flag;
     }
 }
