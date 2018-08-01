@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/CourerList/CourerListRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/CourerList/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/DispatcherOffice/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/DispatcherOffice/OfficeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/IDCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/DataBaseWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/DataBaseWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/Dispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/Dispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DataBaseRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DataBaseRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/Dispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,23 +68,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DispatcherOfficeController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java">
+      <file leaf-file-name="IDCounter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/IDCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="499">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourerListController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListController.java">
+      <file leaf-file-name="DispatcherLoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -152,23 +142,24 @@
         <option value="$PROJECT_DIR$/src/sample/CourerRegistration/CheckCourer.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Registrate/Registrate.java" />
         <option value="$PROJECT_DIR$/src/sample/DataBaseConnecting.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/DispatcherLogin/Const.java" />
         <option value="$PROJECT_DIR$/src/sample/DispatcherLogin/DataBaseRequest.java" />
-        <option value="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" />
         <option value="$PROJECT_DIR$/src/sample/CourerRegistration/Dispatcher.java" />
         <option value="$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" />
         <option value="$PROJECT_DIR$/src/sample/CallsRegistration/Dispatcher.java" />
         <option value="$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" />
         <option value="$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" />
         <option value="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" />
         <option value="$PROJECT_DIR$/src/sample/DispatcherOffice/OfficeRequest.java" />
         <option value="$PROJECT_DIR$/src/sample/DispatcherOffice/Model.java" />
         <option value="$PROJECT_DIR$/src/sample/CourerList/CourerListRequest.java" />
-        <option value="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" />
         <option value="$PROJECT_DIR$/src/sample/CourerList/Model.java" />
         <option value="$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" />
+        <option value="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" />
+        <option value="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/IDCounter.java" />
       </list>
     </option>
   </component>
@@ -221,7 +212,7 @@
               <item name="DispatcherSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="CourerList" type="462c0819:PsiDirectoryNode" />
+              <item name="CallsRegistration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DispatcherSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -232,22 +223,15 @@
             </path>
             <path>
               <item name="DispatcherSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DispatcherSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="DispatcherOffice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DispatcherSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +250,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -383,11 +368,14 @@
       <workItem from="1532083521046" duration="8213000" />
       <workItem from="1532161176329" duration="16875000" />
       <workItem from="1532767061842" duration="10304000" />
+      <workItem from="1532793661432" duration="102000" />
+      <workItem from="1532799933161" duration="7308000" />
+      <workItem from="1532857762890" duration="2850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59837000" />
+    <option name="totallyTimeSpent" value="70098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
@@ -395,7 +383,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -403,11 +390,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34015748" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33700788" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21328124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20234375" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,6 +403,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3559055" />
@@ -431,6 +419,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3055118" />
       <window_info anchor="right" id="JetGradle" order="4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,7 +433,6 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32913387" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32913387" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -454,7 +442,7 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13515624" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -483,158 +471,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="275" lean-forward="true" selection-start-line="10" selection-start-column="227" selection-end-line="10" selection-end-column="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginView.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationDialog.fxml" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,224 +498,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistration.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistration.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginView.fxml" />
+    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CheckRegistration.fxml" />
+    <entry file="file://$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistration.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/Const.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CheckCourerController.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CheckCourer.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Registrate.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/Const.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/Dispatcher.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DataBaseRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/DataBaseConnecting.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/Dispatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/OfficeRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DataBaseConnecting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/CheckRegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DataBaseRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListView.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/OfficeRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/IDCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="499">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CourerList/CourerListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
         </state>
       </provider>
     </entry>

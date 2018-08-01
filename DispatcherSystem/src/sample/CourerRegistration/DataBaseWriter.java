@@ -16,7 +16,7 @@ public class DataBaseWriter extends DataBaseConnecting {
     public static final String GMAIL = "gmail";
     public static final String STATUS = "statusColum";
 
-    static int IDnumber = 101;
+    public static int IDnumber;
     String status = "free";
     String fullName;
     String Adress;
@@ -31,9 +31,6 @@ public class DataBaseWriter extends DataBaseConnecting {
                     ID + ", " + FULL_NAME + ", " + ADRESS + ", " + PASPORT_NUMBER + ", " + PHONE + ", " + GMAIL + ", " + STATUS + ") " +
                     " values('" + IDnumber + "', '" + fullName + "', '" + Adress + "'," +
                     " '" + pasportNumber + "' , '" + phone +"' , '" + gmail + "' , '" + status + "')");
-
-            ++IDnumber;
-
         }catch (SQLException e){
             e.printStackTrace();
         }

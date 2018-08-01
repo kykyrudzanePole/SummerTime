@@ -8,6 +8,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import sample.DispatcherOffice.DispatcherOfficeController;
+import sample.IDCounter;
+
+import java.io.IOException;
 
 public class DispatcherLoginController extends DispatcherOfficeController {     // extends to use method clickButton()
 
@@ -25,6 +28,10 @@ public class DispatcherLoginController extends DispatcherOfficeController {     
 
     @FXML
     void initialize(){
+
+        IDCounter idCounter = new IDCounter();
+        idCounter.getID();
+
         loginButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
