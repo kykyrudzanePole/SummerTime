@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="375.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CallsRegistration.CheckRegistrationController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="102.0" text="Full Name:">
+         <font>
+            <Font name="Apple Casual" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="84.0" prefHeight="33.0" prefWidth="133.0" text="Start Adress:">
+         <font>
+            <Font name="Apple Casual" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="153.0" prefHeight="33.0" prefWidth="137.0" text="End Adress:">
+         <font>
+            <Font name="Apple Casual" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="227.0" prefHeight="33.0" prefWidth="133.0" text="Phone:">
+         <font>
+            <Font name="Apple Casual" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="diaFullNameLabel" layoutX="14.0" layoutY="47.0" prefHeight="27.0" prefWidth="489.0">
+         <font>
+            <Font name="Apple Casual" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="diaStartAdressLabel" layoutX="14.0" layoutY="117.0" prefHeight="27.0" prefWidth="489.0">
+         <font>
+            <Font name="Apple Casual" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="diaEndAdressLabel" layoutX="14.0" layoutY="186.0" prefHeight="27.0" prefWidth="489.0">
+         <font>
+            <Font name="Apple Casual" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="diaPhoneLabel" layoutX="14.0" layoutY="260.0" prefHeight="27.0" prefWidth="489.0">
+         <font>
+            <Font name="Apple Casual" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="diaRegistrateButton" layoutX="144.0" layoutY="314.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="88.0" text="Registrate">
+         <font>
+            <Font name="Apple Casual" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="diaResrtButton" layoutX="284.0" layoutY="314.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="59.0" text="Reset">
+         <font>
+            <Font name="Apple Casual" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
