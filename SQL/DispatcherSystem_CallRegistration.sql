@@ -38,7 +38,7 @@ CREATE TABLE `CallRegistration` (
 
 LOCK TABLES `CallRegistration` WRITE;
 /*!40000 ALTER TABLE `CallRegistration` DISABLE KEYS */;
-INSERT INTO `CallRegistration` VALUES (101,'orest','durachok','stretychok','0960962314','free'),(101,'Zakhar','Tupo','Krasava','0668847974','free'),(1000,'orest','want','food','1111111111','free');
+INSERT INTO `CallRegistration` VALUES (1200,'hello','hello','hello','5555555555','free'),(1200,'hello','hello','hello','6666666666','free'),(1200,'testID','testID','testID','0000000000','free'),(1201,'testID','testID','testID','0000000000','free');
 /*!40000 ALTER TABLE `CallRegistration` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-08-05 13:27:25
+-- Dump completed on 2018-08-08 11:21:51

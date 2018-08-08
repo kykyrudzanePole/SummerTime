@@ -39,7 +39,7 @@ CREATE TABLE `CourerRegistration` (
 
 LOCK TABLES `CourerRegistration` WRITE;
 /*!40000 ALTER TABLE `CourerRegistration` DISABLE KEYS */;
-INSERT INTO `CourerRegistration` VALUES (101,'worker Orest','Drogobich','CE 59356','0960962314','orestglodan@gmail.com','free');
+INSERT INTO `CourerRegistration` VALUES (101,'worker Orest','Drogobich','CE 59356','0960962314','orestglodan@gmail.com','free'),(2200,'test8','test8','test8','8888888888','test8@','free'),(2200,'test8','test8','test8','8888888888','test8@','free');
 /*!40000 ALTER TABLE `CourerRegistration` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-08-05 13:27:26
+-- Dump completed on 2018-08-08 11:21:52

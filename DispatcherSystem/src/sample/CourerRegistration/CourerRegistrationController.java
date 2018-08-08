@@ -1,5 +1,6 @@
 package sample.CourerRegistration;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -83,6 +84,7 @@ public class CourerRegistrationController extends DispatcherOfficeController {  
             }
         });
     }
+
     private boolean errorCheck(int index){
         boolean flag = true;        // flag for checking
 

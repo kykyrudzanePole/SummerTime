@@ -1,6 +1,7 @@
 package sample.CallsRegistration;
 
 import sample.DataBaseConnecting;
+import sample.IDCounter;
 
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -37,6 +38,7 @@ public class DataBaseWriter extends DataBaseConnecting {
             e.printStackTrace();
         }
 
+        IDnumber++;               // increase IDnumber by one
     }
 
     DataBaseWriter(String fullName, String startAdress, String endAdress, String phone, String status){     // take values from
