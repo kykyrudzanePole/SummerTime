@@ -49,7 +49,7 @@ public class IDCounter {
             bufferedWriter.newLine();
             bufferedWriter.write("ID_CourerRegistration=" + ID_Courer);     // second line
 
-            bufferedWriter.flush();     
+            bufferedWriter.flush();
             bufferedWriter.close();
 
         } catch (IOException exception) {

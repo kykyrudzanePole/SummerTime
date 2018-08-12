@@ -3,35 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ID_Information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ID_Information.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/CallsRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/DataBaseWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CallsRegistration/DataBaseWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerList/CourerListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/CourerRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/DataBaseWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/CourerRegistration/DataBaseWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherLogin/DispatcherLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/DispatcherOffice/DispatcherOfficeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/IDCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/IDCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DispatcherSystem/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/CallsRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerList/CourerListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerRegistration/CourerRegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DispatcherOffice/DispatcherOfficeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/IDCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IDCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,8 +64,8 @@
       <file leaf-file-name="IDCounter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/IDCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+            <state relative-caret-position="60">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,9 +139,10 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -385,15 +358,15 @@
       <workItem from="1533468467787" duration="868000" />
       <workItem from="1533470118275" duration="5352000" />
       <workItem from="1533571155089" duration="408000" />
-      <workItem from="1533662557433" duration="7506000" />
+      <workItem from="1533662557433" duration="8397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85401000" />
+    <option name="totallyTimeSpent" value="86292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -622,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/IDCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
