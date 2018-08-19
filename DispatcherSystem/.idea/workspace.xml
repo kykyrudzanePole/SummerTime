@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
       <change beforePath="$PROJECT_DIR$/src/sample/IDCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/IDCounter.java" afterDir="false" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,54 +73,6 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="DispatcherLoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/DispatcherLogin/DispatcherLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/CourerRegistration/DataBaseWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseConnecting.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/DataBaseConnecting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBaseWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/CallsRegistration/DataBaseWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -206,12 +155,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-=======
+
       <pane id="AndroidView" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
+
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,12 +215,8 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="AndroidView" />
-=======
       <pane id="Scope" />
       <pane id="PackagesPane" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,30 +357,18 @@
       <workItem from="1532799933161" duration="7308000" />
       <workItem from="1532857762890" duration="2850000" />
       <workItem from="1533389914422" duration="1169000" />
-<<<<<<< HEAD
-      <workItem from="1533468467787" duration="2359000" />
-      <workItem from="1534074633826" duration="627000" />
-=======
       <workItem from="1533468467787" duration="868000" />
       <workItem from="1533470118275" duration="5352000" />
       <workItem from="1533571155089" duration="408000" />
       <workItem from="1533662557433" duration="8397000" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="74253000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-=======
     <option name="totallyTimeSpent" value="86292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -450,11 +380,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.336478" />
-=======
       <window_info anchor="bottom" id="Run" order="2" weight="0.3181818" />
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -671,16 +597,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/IDCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="381">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-=======
         <state relative-caret-position="60">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 05ade3ac51cb7f7de39c4e025afc0da5ac440d9e
         </state>
       </provider>
     </entry>
