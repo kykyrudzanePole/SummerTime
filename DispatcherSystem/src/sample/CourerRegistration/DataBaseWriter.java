@@ -1,6 +1,7 @@
 package sample.CourerRegistration;
 
 import sample.DataBaseConnecting;
+import sample.IDCounter;
 
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -34,6 +35,8 @@ public class DataBaseWriter extends DataBaseConnecting {
         }catch (SQLException e){
             e.printStackTrace();
         }
+
+        IDnumber++;          // increase IDnumber by one
     }
 
     DataBaseWriter(String fullName, String Adress, String pasportNumber, String phone, String gmail){

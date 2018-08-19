@@ -1,3 +1,2 @@
-ID_DispatcherLogin=1000
-ID_CourerRegistration=2000
- 
+ID_CallsRegistration=1203
+ID_CourerRegistration=2200

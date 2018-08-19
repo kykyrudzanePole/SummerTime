@@ -1,5 +1,6 @@
 package sample.DispatcherOffice;
 
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -15,6 +16,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import sample.DataBaseConnecting;
 import sample.DispatcherLogin.DataBaseRequest;
+import sample.IDCounter;
 
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -83,6 +85,8 @@ public class DispatcherOfficeController {
         changeDispatcherButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {         // back to Login and Password
+                IDCounter.setId(sample.CourerRegistration.DataBaseWriter.IDnumber,
+                        sample.CallsRegistration.DataBaseWriter.IDnumber);
                 clickButton(changeDispatcherButton, "/sample/DispatcherLogin/DispatcherLoginView.fxml");
             }
         });
@@ -105,7 +109,6 @@ public class DispatcherOfficeController {
             }
         });
     }
-
     /* method which take button and fmxl file and due to this,
        hide current window and open mentioned fxml file
      */
